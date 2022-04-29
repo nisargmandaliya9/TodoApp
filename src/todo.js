@@ -28,10 +28,16 @@ const Todo = () => {
     }
 
     const EditTodo = (id) => {
+
+        const updateTodo = todo.filter((elem) => {
+            return id !== elem.id;
+        });
+
         const toEditTodo = todo.find((elem) => {
             return elem.id === id;
         });
         // console.log(toEditTodo);
+        setTodo(updateTodo);
         setWork(toEditTodo.work);
         setDesc(toEditTodo.desc);
     }
