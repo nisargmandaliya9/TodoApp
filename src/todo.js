@@ -34,7 +34,7 @@ const Todo = () => {
         });
 
         const toEditTodo = todo.find((elem) => {
-            return id === lelem.id;
+            return id === elem.id;
         });
         // console.log(toEditTodo);
         setTodo(updateTodo);
@@ -60,7 +60,7 @@ const Todo = () => {
                         value={desc}
                         onChange={(e) => {setDesc(e.target.value)}}
                     />
-                    <button onClick={AddTodo} className="addtodo">Add Todo</button>
+                    <button onClick={AddTodo} className="addtodo">Add Work</button>
             </div>
             <div>
             <ul>

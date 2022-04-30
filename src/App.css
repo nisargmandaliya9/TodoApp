@@ -60,22 +60,22 @@
   color: rgb(25, 17, 138);
   background-color: rgb(226, 226, 226);
   border-radius: 5px;
-  padding: 5px 12px;
+  padding: 5px 13px;
 }
 
 .ur_desc{
   color: rgb(21, 138, 17);
   background-color: rgb(226, 226, 226);
   border-radius: 5px;
-  padding: 5px 12px;
-  margin: 8px 15px;
+  padding: 5px 13px;
+  margin: 7px 14px;
 }
 
 .btn1{
   font-size: 15px;
   font-weight: bold;
   margin: 0 12px;
-  padding: 6px 12px;
+  padding: 7px 14px;
   border: 2px solid rgb(111, 142, 170);
   border-radius: 5px;
 }
@@ -89,7 +89,7 @@
   font-size: 15px;
   font-weight: bold;
   margin: 0 12px;
-  padding: 6px 12px;
+  padding: 7px 14px;
   border: 2px solid rgb(161, 94, 94);
   border-radius: 5px;
 }
