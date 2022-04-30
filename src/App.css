@@ -1,38 +1,100 @@
 .App {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: -10px;
   text-align: center;
+  background: linear-gradient(rgb(233, 122, 231), rgb(227, 249, 127));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  margin-top: -8px;
+  padding-top: 35px;
+  text-shadow: 2px 0px 3px rgba(46, 46, 46, 0.96);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.work{
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgb(242, 106, 176);
+  border-radius: 4px;
+  box-shadow: 2px 1px 3px rgba(242, 106, 176, 0.86);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.desc{
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgb(242, 106, 176);
+  border-radius: 4px;
+  box-shadow: 2px 1px 3px rgba(242, 106, 176, 0.86);
 }
 
-.App-link {
-  color: #61dafb;
+.addtodo{
+  margin: 20px 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid rgb(106, 84, 179);
+  border-radius: 4px;
+  box-shadow: 2px 1px 3px rgba(163, 82, 255, 0.86);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addtodo:hover{
+  color: rgb(233, 233, 233);
+  background-color: rgba(202, 144, 255, 0.79);
+  transform: scale(1.01);
+}
+
+.work-desc{
+  font-size: 22px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.ur_work{
+  color: rgb(25, 17, 138);
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+.ur_desc{
+  color: rgb(21, 138, 17);
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin: 8px 15px;
+}
+
+.btn1{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 12px;
+  padding: 6px 12px;
+  border: 2px solid rgb(111, 142, 170);
+  border-radius: 5px;
+}
+
+.btn1:hover{
+  color: rgb(233, 233, 233);
+  background-color: rgba(39, 39, 183, 0.95);
+}
+
+.btn2{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 12px;
+  padding: 6px 12px;
+  border: 2px solid rgb(161, 94, 94);
+  border-radius: 5px;
+}
+
+.btn2:hover{
+  color: rgb(233, 233, 233);
+  background-color: rgba(148, 25, 25, 0.95);
 }

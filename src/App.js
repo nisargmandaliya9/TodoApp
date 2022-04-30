@@ -8,7 +8,6 @@ function App() {
   return (
     <TodoProvider>
     <div className="App">
-      <h1>TODO APP</h1>
       <Todo />
     </div>
     </TodoProvider>

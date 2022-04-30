@@ -45,24 +45,35 @@ const Todo = () => {
     return (
         <>
             <div>
+                <h1 className="heading">TODO APP</h1>
                     <input 
                         name='work' 
                         placeholder='Enter your work' 
+                        className='work'
                         value={work}
                         onChange={(e) => {setWork(e.target.value)}}
                     />
                     <input
                         name='description' 
-                        placeholder='Enter your work description' 
+                        placeholder='Enter work description' 
+                        className='desc'
                         value={desc}
                         onChange={(e) => {setDesc(e.target.value)}}
                     />
-                    <button onClick={AddTodo}>Add Todo</button>
+                    <button onClick={AddTodo} className="addtodo">Add Todo</button>
             </div>
             <div>
-                <ol>
-                    { todo.map(todos => <p key={todos.id} >{"Work: "+ todos.work + " => Description: " + todos.desc} <button onClick={() => EditTodo(todos.id)}>Edit</button> <button onClick={() => Delete(todos.id)}>Delete</button> </p>) }
-                </ol>
+            <ul>
+                        {
+                        todo.map(todos =>
+                            <li key={todos.id} className='work-desc'>
+                                <b className='ur_work'>{todos.work}</b>
+                                <b className='ur_desc'>{" Description: " + todos.desc}</b>
+                                <button onClick={() => EditTodo(todos.id)} className='btn1'>Edit</button>
+                                <button onClick={() => Delete(todos.id)} className='btn2'>Delete</button>
+                            </li>)
+                        }
+                    </ul>
             </div>
     </>
     )
