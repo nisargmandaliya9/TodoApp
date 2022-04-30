@@ -63,7 +63,7 @@ const Todo = () => {
                     <button onClick={AddTodo} className="addtodo">Add Work</button>
             </div>
             <div>
-            <ul>
+                    <ul>
                         {
                         todo.map(todos =>
                             <li key={todos.id} className='work-desc'>
