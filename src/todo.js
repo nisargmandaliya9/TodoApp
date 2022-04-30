@@ -34,7 +34,7 @@ const Todo = () => {
         });
 
         const toEditTodo = todo.find((elem) => {
-            return elem.id === id;
+            return id === lelem.id;
         });
         // console.log(toEditTodo);
         setTodo(updateTodo);
