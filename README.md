@@ -1,5 +1,5 @@
 # Simple Todo App 
-## A simple todo app using react.js, here I've used concept to useContext hook of react.
+## A simple todo app using react.js, here I've used concept of useContext hook.
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
