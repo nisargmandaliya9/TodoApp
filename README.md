@@ -1,5 +1,6 @@
 # Simple Todo App 
 ## A simple todo app using react.js, it only does two operation, edit your todo and delete it. Here I've used concept of useContext hook.
+## Have a look at it [asimpletodoapp](https://asimpletodoapp.netlify.app)
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
