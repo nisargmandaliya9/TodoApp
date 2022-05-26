@@ -100,7 +100,13 @@
   background-color: rgba(148, 25, 25, 0.95);
 }
 
-ul{
-  display: grid;
-  grid-template-rows: 100px 100px 100px;
+@media  screen and (max-width: 600px) {
+  
+  li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
